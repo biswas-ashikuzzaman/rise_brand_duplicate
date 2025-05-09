@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid gold;
+  }
+  
+  /* Top Part */
+  .navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .logo .highlight {
+    color: #C19B52; /* gold color */
+  }
+  
+  .search-box {
+    flex: 1;
+    margin: 0 30px;
+    position: relative;
+  }
+  
+  .search-box input {
+    width: 100%;
+    padding: 8px 40px 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  
+  .search-box button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-options {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .user-options a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    position: relative;
+  }
+  
+  .cart-icon {
+    position: absolute;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: #C19B52;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 10px;
+  }
+  
+  /* Bottom Menu */
+  .navbar-bottom {
+    background-color: black;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    padding: 10px 30px;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu > li {
+    margin-right: 30px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 5px;
+    display: block;
+    font-size: 14px;
+  }
+  
+  /* Dropdown */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    background-color: white;
+    list-style: none;
+    min-width: 150px;
+    border: 1px solid #ccc;
+    z-index: 999;
+  }
+  
+  .dropdown-menu li a {
+    color: black;
+    padding: 10px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  

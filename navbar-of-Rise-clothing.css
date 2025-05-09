@@ -22,6 +22,9 @@
     align-items: center;
     padding: 10px 30px;
   }
+  .logo img {
+    width:150px ;
+  }
   
   .logo {
     font-size: 28px;

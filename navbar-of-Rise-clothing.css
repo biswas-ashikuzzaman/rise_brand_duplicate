@@ -16,6 +16,101 @@
   }
   
   /* Top Part */
+  .navbar_user_option{ 
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 2px 18px;
+    border-bottom: 1px solid #DEE2E6;
+    div .header-mini bg-top-bar {
+	/* Font & Text */
+	font-family: " montserratregular", sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 21px;
+	text-decoration: none solid rgb(0, 0, 0);
+	text-align: left;
+	text-indent: 0px;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: normal;
+	word-spacing: 0px;
+
+	/* Color & Background */
+	background-attachment: scroll;
+	background-color: rgb(255, 255, 255);
+	background-image: none;
+	background-position: 0% 0%;
+	background-repeat: repeat;
+	color: rgb(0, 0, 0);
+
+	/* Box */
+	height: 25.993px;
+	width: 1262.62px;
+	border: ;
+	border-top: 0px none rgb(0, 0, 0);
+	border-right: 0px none rgb(0, 0, 0);
+	border-bottom: 0.934579px solid rgb(222, 226, 230);
+	border-left: 0px none rgb(0, 0, 0);
+	margin: 0px;
+	padding: 0px;
+	max-height: none;
+	min-height: 26px;
+	max-width: none;
+	min-width: 0px;
+
+	/* Positioning */
+	position: static;
+	top: auto;
+	bottom: auto;
+	right: auto;
+	left: auto;
+	float: none;
+	display: block;
+	clear: none;
+	z-index: auto;
+
+	/* List */
+	list-style-image: none;
+	list-style-type: disc;
+	list-style-position: outside;
+
+	/* Table */
+	border-collapse: separate;
+	border-spacing: 0px 0px;
+	caption-side: top;
+	empty-cells: show;
+	table-layout: auto;
+
+	/* Miscellaneous */
+	overflow: visible;
+	cursor: auto;
+	visibility: visible;
+
+	/* Effects */
+	transform: none;
+	transition: all;
+	outline: rgb(255, 0, 0) dashed 0.934579px;
+	outline-offset: 0px;
+	box-sizing: border-box;
+	resize: none;
+	text-shadow: none;
+	text-overflow: clip;
+	word-wrap: normal;
+	box-shadow: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+    }
+  }
+  .navbar_user_option a{
+    text-decoration: none;
+    color: black;
+  }
   .navbar-top {
     display: flex;
     justify-content: space-between;

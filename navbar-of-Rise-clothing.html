@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RISE-A Modern Clothing Brand</title>
+      <!-- Bootstrap CSS & JS CDN -->
+      <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+       <script src="dist/js/bootstrap.bundle.min.js"></script>
+      <!-- CSS Link  -->
   <link rel="stylesheet" href="navbar-of-Rise-clothing.css">
     <!-- Icon CDN  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -11,37 +15,37 @@
   <link rel="icon" type="image/png" href="https://d2izus7yvo9igu.cloudfront.net/images/media/2021/09/5HHRQ16503.png">
 </head>
 <body>
-  <header class="navbar">
-    <div class="navbar_user_option"><span>Hello, <a href="#">Sign In</a></span></div>
-    <div class="navbar-top">
+  <header class="custom_navbar">
+    <div class="custom_navbar_user_option"><span>Hello, <a href="#">Sign In</a></span></div>
+    <div class="custom_navbar-top">
       <div class="logo"><img src="logo.png" alt=""></span></div>
-      <div class="search-box">
+      <div class="custom_search-box">
         <input type="text" placeholder="Search Products...">
         <button><i class="fas fa-search"></i></button>
       </div>
-      <div class="user-options">
+      <div class="custom_user-options">
         <a href="#">Wish List</a>
-        <a href="#" class="cart-icon">
+        <a href="#" class="custom_cart-icon">
           <!-- Cart Icon -->
              <i class="fas fa-shopping-cart"></i>
-                <span class="cart-count">0</span></a>
+                <span class="custom_cart-count">0</span></a>
       </div>
     </div>
 
-    <nav class="navbar-bottom">
-      <ul class="menu">
+    <nav class="custom_navbar-bottom">
+      <ul class="custom_menu">
         <li><a href="#">Home</a></li>
-        <li class="dropdown">
+        <li class="custom_dropdown">
           <a href="#">Mens</a>
-          <ul class="dropdown-menu">
+          <ul class="custom_dropdown-menu">
             <li><a href="#">Tops</a></li>
             <li><a href="#">Bottoms</a></li>
             <li><a href="#">Winter</a></li>
           </ul>
         </li>
-        <li class="dropdown">
+        <li class="custom_dropdown">
           <a href="#">Womens</a>
-          <ul class="dropdown-menu">
+          <ul class="custom_dropdown-menu">
             <li><a href="#">Tops</a></li>
             <li><a href="#">Bottoms</a></li>
             <li><a href="#">Winter</a></li>
@@ -54,10 +58,31 @@
     </nav>
   </header>
 
+  <!-- carosoul -->
+   <div>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="rise_bannar.jpg" class="d-block w-100" alt="..."style="width: 100%;">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="flash_sale.jpg" class="d-block w-100" alt="..." style="width: 100%;">
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
     <!-- content  -->
-  <div class="middle_content_grid">
+  <div class="custom_middle_content_grid">
     <div class="box">
-      <img src="rise_bannar.jpg" alt="bannar">
+      <img src="" alt="">
     </div>
     <div class="box"></div>
     <div class="box"></div>
